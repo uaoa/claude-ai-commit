@@ -20,18 +20,18 @@ AI-powered git commit message generator using Claude AI. Supports both Anthropic
 
 ```bash
 # Install globally
-npm install -g claude-ai-commit
+npm install -g claude-commit
 
 # Or use with npx (no installation needed)
-npx claude-ai-commit
+npx claude-commit
 ```
 
 ### Option B: Local Installation (Per Project)
 
 1. **Clone or download this repository**
    ```bash
-   git clone https://github.com/uaoa/claude-ai-commit.git
-   cd claude-ai-commit
+   git clone https://github.com/uaoa/claude-commit.git
+   cd claude-commit
    ```
 
 2. **Install dependencies**
@@ -69,8 +69,8 @@ If you have a Claude Pro subscription and want to use the CLI without an API key
 
 3. **Clone this repo and install dependencies**
    ```bash
-   git clone https://github.com/uaoa/claude-ai-commit.git
-   cd claude-ai-commit
+   git clone https://github.com/uaoa/claude-commit.git
+   cd claude-commit
    npm install
    ```
 
@@ -104,13 +104,13 @@ No configuration needed! Just ensure Claude Code CLI is installed and authentica
 2. **Run the generator**
    ```bash
    # If installed globally
-   claude-ai-commit
+   claude-commit
 
    # If using npm script
    npm run commit
 
    # If using npx
-   npx claude-ai-commit
+   npx claude-commit
 
    # With language selection
    npm run commit -- --lang=en  # English
@@ -417,7 +417,7 @@ MIT License - see LICENSE file for details
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/uaoa/claude-ai-commit/issues)
+- **Issues**: [GitHub Issues](https://github.com/uaoa/claude-commit/issues)
 - **Documentation**: [Anthropic Docs](https://docs.anthropic.com)
 - **Claude Code**: [Claude Code Docs](https://docs.claude.com/claude-code)
 
